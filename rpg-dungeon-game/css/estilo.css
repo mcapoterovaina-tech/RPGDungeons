@@ -1,0 +1,19 @@
+    body { background: #222; color: #fff; font-family: monospace; margin:0; }
+    canvas { background: #333; display: block; margin: 20px auto; border: 2px solid #fff; }
+    #dialog, #inventory, #menu, #end, #pause { 
+      position: absolute; left: 50%; top: 60%; transform: translate(-50%, 0); 
+      background: #222; color: #fff; padding: 10px 20px; border: 2px solid #fff; min-width: 320px; display: none; z-index:2;
+    }
+    #hud { text-align: center; margin-top: 10px; }
+    #menu, #end, #pause { top: 30%; font-size:1.2em; }
+    #inventory { top: 20%; min-width: 220px; }
+    #minimap { position: absolute; right: 30px; top: 30px; background: #111; border: 2px solid #fff; }
+    .btn { background:#444; color:#fff; border:none; padding:6px 16px; margin:8px; cursor:pointer; font-size:1em;}
+    .btn:hover { background:#666; }
+    .bar { height: 8px; background: #444; border-radius: 4px; margin: 2px 0; }
+    .bar-inner { height: 8px; border-radius: 4px; }
+    .icon { display:inline-block; width:18px; height:18px; vertical-align:middle; margin-right:4px; }
+    .icon.sword { background: linear-gradient(90deg,#ccc 60%,#888 100%); border-radius:3px;}
+    .icon.potion { background: radial-gradient(circle,#0f0 60%,#060 100%); border-radius:50%;}
+    .icon.key { background: linear-gradient(90deg,#ff0 60%,#aa0 100%); border-radius:50%;}
+    .icon.gold { background: radial-gradient(circle,#fd0 60%,#a80 100%); border-radius:50%;}

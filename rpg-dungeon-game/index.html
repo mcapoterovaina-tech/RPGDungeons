@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>RPG Dungeon Laberinto</title>
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+  <canvas id="game" width="640" height="480"></canvas>
+  <canvas id="minimap" width="120" height="90"></canvas>
+  <div id="menu">
+    <h2>RPG Dungeon Laberinto</h2>
+    <p>Usa WASD para moverte.<br>Presiona <b>I</b> para inventario.<br>Presiona <b>Espacio</b> para atacar.<br>Presiona <b>P</b> para pausar.<br><b>Objetivo:</b> ¡Sube hasta el piso 1 y escapa por la puerta!</p>
+    <button class="btn" id="startBtn">Comenzar</button>
+  </div>
+  <div id="dialog"></div>
+  <div id="inventory"></div>
+  <div id="end"></div>
+  <div id="pause"><h2>Pausa</h2><p>Presiona <b>P</b> para continuar.</p></div>
+  <div id="hud"></div>
+  <script src="js/funcio.js"></script>
+</body>
+</html>
